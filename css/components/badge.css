@@ -16,3 +16,16 @@
   height: 5px;
   border-radius: 50%;
 }
+
+.empty-badge {
+  width: 13px;
+  height: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: tomato;
+  border: 2px solid tomato;
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 600;
+}

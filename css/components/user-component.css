@@ -53,3 +53,17 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component__text span {
+  display: flex;
+}
+
+.user-component__text {
+  position: relative;
+}
+
+.user-component__caution-mark {
+  position: absolute;
+  right: -22px;
+  bottom: 0px;
+}
