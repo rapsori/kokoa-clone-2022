@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- s: index head -->
+
 <head>
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
@@ -8,8 +10,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Kokoa Clone</title>
 </head>
+<!-- e: index head -->
+
+<!-- s: index body -->
 
 <body>
+    <!-- s: index status bar -->
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -24,22 +30,27 @@
             <i class="fa-solid fa-bolt-lightning"></i>
         </div>
     </div>
+    <!-- e: index status bar -->
 
+    <!-- s: index header -->
     <header class="welcome-header">
         <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
         <p class="welcome-header__text">If you have a Kokoa Account, log in with your email or phone number.</p>
     </header>
+    <!-- e: index header -->
 
+    <!-- s: index form -->
     <form action="friends.html" method="get" id="login-form">
         <input name="username" required type="text" placeholder="Email or Phone number" />
         <input name="password" required type="passward" placeholder="Password" />
         <input type="submit" value="Log In" />
         <a href="#">Find Kokoa Account or Passward</a>
     </form>
-
+    <!-- e: index form -->
 
     <script src="https://kit.fontawesome.com/31d4fcd3e0.js" crossorigin="anonymous">
     </script>
 </body>
+<!-- e: index body -->
 
 </html>
