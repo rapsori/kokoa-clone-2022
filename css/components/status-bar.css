@@ -1,6 +1,7 @@
 .status-bar {
   position: sticky;
   width: 100%;
+  box-sizing: border-box;
   top: 0px;
   display: flex;
   justify-content: center;
